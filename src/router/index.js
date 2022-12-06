@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+// app.js 로 만들어진다.
 import HomeView from '../views/HomeView.vue'
 
 const routes = [
@@ -10,9 +11,8 @@ const routes = [
   {
     path: '/about',
     name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
+    // import HomeView from '../views/HomeView.vue' 와 차이가 있다.
+    // about.js 로 만들어진다.
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
   }
 ]
