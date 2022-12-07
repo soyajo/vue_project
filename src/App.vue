@@ -4,7 +4,12 @@
     <router-link to="/about">About</router-link> |
     <router-link to="/databinding/string">string</router-link> |
     <router-link to="/databinding/html">html</router-link> |
-    <router-link to="/databinding/input">input</router-link>
+    <router-link to="/databinding/input">input</router-link> |
+    <router-link to="/databinding/select">select</router-link> |
+    <router-link to="/databinding/checkbox">checkbox</router-link> |
+    <router-link to="/databinding/radio">radio</router-link> |
+    <router-link to="/databinding/attr">attribute</router-link> |
+    <router-link to="/databinding/list">list</router-link> |
   </nav>
   <router-view/>
 </template>
