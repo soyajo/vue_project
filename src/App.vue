@@ -12,6 +12,8 @@
     <router-link to="/databinding/list">list</router-link> |
     <router-link to="/databinding/class">class</router-link> |
     <router-link to="/databinding/style">style</router-link> |
+    <router-link to="/event/click">click</router-link> |
+    <router-link to="/event/change">change</router-link> |
   </nav>
   <router-view/>
 </template>
