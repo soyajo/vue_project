@@ -14,6 +14,7 @@
     <router-link to="/databinding/style">style</router-link> |
     <router-link to="/event/click">click</router-link> |
     <router-link to="/event/change">change</router-link> |
+    <router-link to="/event/key">key</router-link> |
   </nav>
   <router-view/>
 </template>
